@@ -1,0 +1,36 @@
+Positive
+1) Start TLX
+2) Click "Scan"
+3) Run the script by double-clicking on it, or right-clicking and selecting "Run script"
+4) The "Positive", "B&W", and “16 Base” radio buttons are now selectable.
+5) Select the relevant button(s).
+6) Continue onward in your journey.
+
+If you want color that looks like what you saw on your light table, you need to
+1) Import the .raw file into your image editor
+2) Assign the sRGB color space
+3) Add a Levels (or Exposure) adjustment layer (Photoshop)
+4) Set Gamma to 2.2
+5) Set Black / White points
+6) If you think it needs color correction, do it with a Curves adjustment layer right under the Levels layer
+7) If it needs a bit of shadow lift, contrast, etc, do it above the Levels layer.
+
+The purpose of exporting as "raw" is to bypass the color correction algorithm; if you do not, you'll get very strange color casts. This may (?) not be an issue with an F-235 or F-335, as scanning slide film was officially supported for those devices.
+If you do not need 16-bit planar files, and/or if you are using an F-135+, you can use Christoph Zeidler's modified executable to scan in Positive mode in PSI (a much better interface). You will not be able to obtain 16-bit raw linear files, but the 8-bit linear files may be good enough for your purposes.
+
+Black & White
+The same steps for Positive apply, except you select the B&W radio button instead of the Positive button. No raw export is necessary, these files can be saved as auto-corrected JPEGs. 
+The most significant reason to scan traditional B&W film in this mode (instead of C-41 B&W) is that, like Positive mode, you are less likely to experience phantom jamming. This also appears to solve the long-standing issue with scanning films with a polyester base (unusually low base fog).
+
+16-Base
+This only matters if you are using a Non-plus unit. Select the 16-Base radio button and get on with it.
+Download
+GitHub project (contains uncompiled scripts):
+https://github.com/sgharvey/pakon-t...
+Click on "Download ZIP", extract to the desktop of your XP machine.
+Install AutoIt v3 by following the link in the README. Go with all defaults.
+Execute the script by double-clicking it.
+If you know what “cloning and pulling” means, then you’re probably about to do it anyway, and you don’t need any encouragement from me.
+Did I make your day, save you time, or stop you from throwing your Pakon / computer out of a window?
+Flattr me: flattr.com/profile/sgharvey
+Buy me a beer via PayPal: KephnosAnagennao@gmail.com

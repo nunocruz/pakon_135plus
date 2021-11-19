@@ -1,0 +1,12 @@
+
+ - Using TLXClientDemo, scan the slide film as C41-BW. For some reason scanning as C41 will not give you the same results (I think this setting actually adjusts the LED light)
+
+ - Save as RAW (See the RAW scan document)
+
+ - Open in the RAW file in Photoshop (See the RAW scan document)
+
+ - Run the plugin ColorPerfect and select the ColorPos option w/ AdobeRGB colorspace selected (this will correct the gamma, stretch out the histogram and do the initial color balance)
+
+ - Save the gamma corrected TIFF
+
+ - Import into Lightroom for final corrections (contrast, sharpness, etc.)

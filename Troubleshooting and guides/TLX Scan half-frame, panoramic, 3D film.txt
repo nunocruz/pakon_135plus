@@ -1,0 +1,70 @@
+This solution does not require manual adjustment of framing for each image after scanning. Once you determine the correct Pre-Scan values for your camera, scan your film, wait (sip your coffee / tea), then make color adjusments and save your images.
+Open TLX
+Go to "Pre-Scan" (menu) and select "35mm 16 Base"
+Under "Framing", set "Width (px)" to something appropriate (try 1500 for half frame, 5500 for panoramic)
+Set "Unit Width (px)" to 206 greater than "Width (px)" was set to
+Under "Cropping", set "Right (pixels)" to 1 less than "Width (px)"
+Click OK
+Click Scan
+Set all your usual preferences
+Click Scan. You may need to re-scan if your "Width (px)" value was not quite right. Unfortunately, TLX does not seem to support changing these values and re-framing the roll after it has been scanned.
+ 
+Example calculations (your camera may require different values):
+ 
+Panoramic frame with average frame width of 5500 px
+Width (px): 5500
+Unit Width (px): 5706 = 5500 + 206
+Cropping -> Right (pixels): 5499 = 5500 - 1 
+
+Hasselblad XPAN (original)
+Width (px): 5530
+Unit Width (px): 5736 = 5530 + 206
+Cropping -> Right (pixels): 5529 = 5530 - 1 
+
+Hasselblad XPAN II
+Width (px): 5465
+Unit Width (px): 5585
+Cropping -> Right (pixels): 5464 = 5465 - 1
+
+Half-frame (NOT universal values, just a place to start from):
+Width (px): 1500
+Unit Width (px): 1706 = 1500 + 206
+Cropping -> Right (pixels): 1499 = 1500 - 1
+
+ Type 126 film (not recently tested, but values pulled from an old group post):
+Width (px): 2630
+Unit Width (px): 2660 = 2630 + 30
+Cropping -> Right (pixels): 2629 = 2630 - 1 
+
+Horizon 202
+Width (px): 4925
+Unit Width (px): 5000
+Cropping -> Left (pixels): 10
+Cropping -> Right (pixels): 4880
+Cropping -> Top (pixels): 20
+Cropping -> Bottom (pixels): 1999 
+
+Horizon Perfekt
+Width (px): 5025
+Unit Width (px): 5100
+Cropping -> Left (pixels): 10
+Cropping -> Right (pixels): 4880
+Cropping -> Top (pixels): 20
+Cropping -> Bottom (pixels): 1999
+
+Widelux
+Width (px): 4910
+Unit Width (px): 5350
+Cropping -> Right (pixels): 4909 
+Revere Stereo 33
+Width (px): 2040
+Unit Width (px): 2246
+Cropping -> Right (pixels): 2039
+
+How to guess a frame width to start with
+Grab a metric ruler with millimeter markings
+Measure the length of 1 (or more) frame(s) of your film along the sprockets (diptychs, triptychs, etc)
+Perform this calculation:
+(Long side length in mm) / 25.4mm  *  2000dpi  = framing width dpi  
+Example: XPan (65mm x 24mm):
+65mm/25.4mm * 2000dpi = 5118dpi

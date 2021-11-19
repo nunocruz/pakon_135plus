@@ -1,0 +1,19 @@
+Lei Huang found an amazing glitch in PSI to make it possible for the F135+ to scan positive slide film, even though PSI usually has this feature disabled.
+Here is the original link to his post: https://www.facebook.com/groups/PakonF135/permalink/1010498565635847/
+ 
+
+- Open PSI and set it to Easy Mode
+
+- Close PSI and open it again
+
+- Now you have to be fast and press the Right Arrow three times during the Initialization phase of PSI (See the screenshot here: https://www.facebook.com/photo.php?fbid=1640394119578103&set=pcb.1010498565635847&type=1&theater)
+
+- It will take some tries to get the timing right, but you should be seeing the new color option 'Positive' (See screenshot here: https://www.facebook.com/photo.php?fbid=1640394132911435&set=pcb.1010498565635847&type=1&theater)
+
+- Press Positive and start scanning as usual :)
+
+
+The positive setting will stay on when you change back to Advanced Mode and even when you restart PSI until you use another color setting.
+
+The slides will look a bit washed out, but adding saturation (~30) in LR will make the slides pop like they should.
+Enjoy scanning!

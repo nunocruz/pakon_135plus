@@ -1,0 +1,20 @@
+I couldn't find much information on this, so here's a rough guide as a starting point.
+Please edit, update and refine :)
+0) Turn on PAKON
+1) Open TLXClientDemo (in Start menu -> Programs -> Pakon -> TLXClientDemo)
+2) Click the SCAN button on the left and the SCAN SETTINGS dialog box appears.  Then click SCAN*
+3) The scanner starts to run, feed your film in
+4) When scanning is complete, click "Move Oldest Roll in Scan Group to Save Group", then a Scan Warnings box will appears with a summary of the scan information, click OK.
+5) Click the FRAMING button on the left, Framing Adjustment dialog box will appear, change the LEFT value and click APPLY until the left of the frame lines up
+6) Click on the "Adjust Cropping" radio button on the left, and then change the Right value and click Apply, keeping adjusting the number until it's framed the way you want.  I usually start with the Right value as Left Value + 5440, and then adjust from there. Click OK when you're happy with it.
+7) Click on the Color button if you want to make adjustments to the brightness/contrast/colour/sharpening
+8) Click the NEXT button on the right to go to the next frame.
+9) Repeat Steps 5 - 8 for the remaining frames, clicking the Delete Picture button for the frames you don't want.
+10) Click on the SAVE button, and the save dialog box will appear.  I select "All pictures", "To disk", "JPEG". Then OK.
+11) The scans appear in c:\TEMP
+I took screenshots but don't know how to embed them in this document!
+*If you have an error here, try reinstalling the Pakon software, this fixed the problem for me!
+
+5600 frame size 
+
+130 black size

@@ -1,0 +1,7 @@
+1. Remove 4 torx screws on bottom of scanner
+
+2. Remove all the remaining philips screws that are holding the white plastic top part on to the metal base (can't remember if there are 4 or 6 of these) and remove the top plastic 
+
+3. Loosen the screws that hold the film transport down, and gently adjust the entire film transport mechanism so that it's perfectly aligned to the flat bar behind it with a "no touch" sticker.
+
+4.Tighten screws and put scanner back together. Scanners were calibrated at the factory by adjusting the no-touch bar to the proper focus position. The film transport sometimes shifts away from it. Do not attempt to loosen or adjust the no-touch bar.
