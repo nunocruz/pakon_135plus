@@ -34,7 +34,7 @@ Maximizes TLX window size and chooses the higher buffer, so that you can edit yo
 Reindexes the frame numbers of your roll.
 
 ### TLX_ScanEnable.au3
-Because TLX is a demo software, some features, such as BW and E6 need to be unlocked for usage/
+Because TLX is a demo software, some features, such as BW and E6 need to be unlocked for usage.
 
 ## Software
 The official Pakon scanner software. 
